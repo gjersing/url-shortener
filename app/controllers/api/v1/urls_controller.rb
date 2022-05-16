@@ -1,4 +1,4 @@
-class UrlsController < ApplicationController
+class Api::V1::UrlsController < ApplicationController
   before_action :set_url, only: %i[ show update destroy ]
 
   # GET /urls
